@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-samsung-tizen",
-  "version": "4.2.0",
+  "name": "@piets/homebridge-samsung-tizen",
+  "version": "0.0.1",
   "description": "Samsung TV plugin for Homebridge",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tavicu/homebridge-samsung-tizen.git"
+    "url": "git+https://github.com/piets/homebridge-samsung-tizen.git"
   },
   "keywords": [
     "homebridge-plugin",
@@ -18,12 +18,9 @@
     "remote",
     "tizen"
   ],
-  "author": "Octavian Ruda",
+  "author": "Peter Kraml",
   "license": "MIT",
-  "homepage": "https://github.com/tavicu/homebridge-samsung-tizen#readme",
-  "bugs": {
-    "url": "https://github.com/tavicu/homebridge-samsung-tizen/issues"
-  },
+  "homepage": "https://github.com/piets/homebridge-samsung-tizen#readme",
   "engines": {
     "node": ">=8.0.0",
     "homebridge": ">=0.4.0"
@@ -34,5 +31,9 @@
     "fs-extra": "^8.0.1",
     "wakeonlan": "^0.1.0",
     "is-port-reachable": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
