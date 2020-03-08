@@ -54,6 +54,10 @@ class SamsungPlatform {
                 if (accessory.type == 'switch' && externalAccessory) {
                     externalAccessory.addService(accessory.services.main.service);
                 }
+
+                if (accessory.type == 'volume' && externalAccessory) {
+                    externalAccessory.addService(accessory.services.main.service);
+                }
             }
 
             this.api.publishExternalAccessories(PLUGIN_NAME, [externalAccessory]);
